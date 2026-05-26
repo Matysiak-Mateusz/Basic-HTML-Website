@@ -1,8 +1,9 @@
 # Basic HTML Website
 
-This project is my implementation of the roadmap.sh challenge:
+This project is my implementation of the roadmap.sh challenges:
 
-https://roadmap.sh/projects/basic-html-website
+- https://roadmap.sh/projects/basic-html-website
+- https://roadmap.sh/projects/portfolio-website
 
 It is part of my personal series of roadmap.sh projects where I test and strengthen my understanding of legacy-style web fundamentals while also applying newer vanilla HTML, CSS, and JavaScript techniques.
 
