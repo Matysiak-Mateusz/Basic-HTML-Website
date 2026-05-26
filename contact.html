@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO -->
+    <title>Contact - Mateusz Matysiak</title>
+    <meta
+      name="description"
+      content="Contact Mateusz Matysiak - Junior Front-End Developer based in Poznan, Poland. Email, phone and contact form."
+    />
+    <meta
+      name="keywords"
+      content="contact, Mateusz Matysiak, Front-End Developer, Poznan, hire React developer"
+    />
+    <meta name="author" content="Mateusz Matysiak" />
+    <meta name="robots" content="index, follow" />
+
+    <meta property="og:title" content="Contact - Mateusz Matysiak" />
+    <meta
+      property="og:description"
+      content="Get in touch with Mateusz Matysiak, Junior Front-End Developer."
+    />
+    <meta property="og:type" content="website" />
+
+    <link rel="canonical" href="contact.html" />
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <main id="main-content" class="page">
+      <header class="section top-bar">
+        <div class="brand">
+          <div class="logo" aria-hidden="true"></div>
+          <span class="brand-name">Mateusz Matysiak</span>
+        </div>
+        <nav class="nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <span aria-hidden="true">/</span>
+          <a href="projects.html">Projects</a>
+          <span aria-hidden="true">/</span>
+          <a href="articles.html">Articles</a>
+          <span aria-hidden="true">/</span>
+          <a href="contact.html" aria-current="page">Contact</a>
+        </nav>
+      </header>
+
+      <section class="section hero">
+        <h1>Contact</h1>
+        <p>Let's talk about your project or role</p>
+      </section>
+
+      <section class="section contact-grid">
+        <aside class="contact-info">
+          <h2>Get in touch</h2>
+          <ul class="plain">
+            <li>
+              Email:
+              <a class="link" href="mailto:mmatysiak.private@gmail.com"
+                >mmatysiak.private@gmail.com</a
+              >
+            </li>
+            <li>
+              Phone: <a class="link" href="tel:+48665110016">+48 665 110 016</a>
+            </li>
+            <li>Location: Poznan, Poland</li>
+          </ul>
+
+          <h2>Online</h2>
+          <ul class="plain">
+            <li>
+              <a
+                class="link"
+                href="https://github.com/Matysiak-Mateusz"
+                target="_blank"
+                rel="noopener noreferrer"
+                >github.com/Matysiak-Mateusz</a
+              >
+            </li>
+            <li>
+              <a
+                class="link"
+                href="https://linkedin.com/in/mateuszmatysiak-/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >linkedin.com/in/mateuszmatysiak-</a
+              >
+            </li>
+          </ul>
+        </aside>
+
+        <div class="contact-form-wrapper">
+          <h2>Send a message</h2>
+          <p id="contact-form-note" class="form-note">All required fields must be completed before submission.</p>
+          <form class="contact-form" action="#" method="post" aria-describedby="contact-form-note">
+            <div class="field">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your full name"
+                autocomplete="name"
+                required
+              />
+            </div>
+
+            <div class="field">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="you@example.com"
+                autocomplete="email"
+                required
+              />
+            </div>
+
+            <div class="field">
+              <label for="subject">Subject</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="What is this about?"
+                autocomplete="off"
+              />
+            </div>
+
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                placeholder="Write your message..."
+                required
+              ></textarea>
+            </div>
+
+            <div class="field checkbox-field">
+              <input type="checkbox" id="consent" name="consent" required />
+              <label for="consent">
+                I agree to the processing of my personal data for the purpose of
+                this contact request (GDPR).
+              </label>
+            </div>
+
+            <button type="submit" class="btn-submit">Send message</button>
+          </form>
+        </div>
+      </section>
+
+      <footer class="section footer">
+        <p>&copy; 2026 Mateusz Matysiak - all rights reserved</p>
+      </footer>
+    </main>
+  </body>
+</html>
